@@ -3,12 +3,12 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
 # Azure Speech SDK configuration
-speech_key = "BXTsAN1x0lV6qPktdlr9iM8yba6yJSWiYdx255L3QgKUtmybuXXeJQQJ99AKACYeBjFXJ3w3AAAAACOGoYyf"
+speech_key = "<>"
 service_region = "eastus"
 
 # Azure Text Analytics configuration
 text_analytics_endpoint = "https://ai-sarpotdaratul2956ai274315666685.cognitiveservices.azure.com/"
-text_analytics_api_key = "BXTsAN1x0lV6qPktdlr9iM8yba6yJSWiYdx255L3QgKUtmybuXXeJQQJ99AKACYeBjFXJ3w3AAAAACOGoYyf"
+text_analytics_api_key = "<>"
 
 # Function to authenticate Text Analytics client
 def authenticate_text_analytics_client():
