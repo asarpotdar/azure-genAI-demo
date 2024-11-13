@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Toolbar</title>
+    <style>
+
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #toolbar {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 500px;
+            width: 200px;
+            border: 1px solid rgb(14, 6, 46);
+            border-radius: 10px;
+            background-color: rgb(176, 209, 244);
+        }
+
+        .toolbar-header{
+            cursor: move;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(100, 104, 104);
+            z-index: 10;
+        }
+
+        .toolbar-content{
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        .callerName p {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        #action {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: red;
+        }
+        
+
+        #textarea {
+            position: relative;
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+            border: 1px solid rgb(8, 17, 65);
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id="toolbar">
+        <div class="toolbar-header">
+
+        </div>
+        <div class="toolbar-content">
+            <div class="callerName">
+                <p>Mr John S.</p>
+            </div>
+    
+            <div id="action">
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="textarea">
+        <p>Transcript:</p>
+    </div>
+</body>
+
+<script>
+    dragElement(document.getElementById("toolbar"));
+
+    function dragElement(elmnt) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        elmnt.onmousedown = dragMouseDown;
+
+        function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            // stop moving when mouse button is released:
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+    }
+</script>
+
+<!-- <speechsdkref> -->
+  <!-- Speech SDK reference sdk. -->
+  <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+  <!-- </speechsdkref> -->
+
+  <!-- <quickstartcode> -->
+  <!-- Speech SDK USAGE -->
+  <script>
+    // status fields and start button in UI
+    var phraseDiv;
+    var startRecognizeOnceAsyncButton;
+
+    // subscription key and region for speech services.
+    var subscriptionKey, serviceRegion;
+    var SpeechSDK;
+    var recognizer;
+
+    document.addEventListener("DOMContentLoaded", function () {
+      startRecognizeOnceAsyncButton = document.getElementById("action");
+      subscriptionKey = "BcKBw9xkCFo3hRlXnmHzlKbZ6FfHyCY5fRTx3HEWBjkf9KXHKBPUJQQJ99AKACGhslBXJ3w3AAAYACOGrZZV";
+      serviceRegion = "centralindia";
+      phraseDiv = document.getElementById("textarea");
+
+      startRecognizeOnceAsyncButton.addEventListener("click", function () {
+        startRecognizeOnceAsyncButton.disabled = true;
+        phraseDiv.innerHTML = "";
+
+        if (subscriptionKey === "" || subscriptionKey === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechConfig.fromSubscription(subscriptionKey, serviceRegion);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizer = new SpeechSDK.SpeechRecognizer(speechConfig, audioConfig);
+
+        recognizer.recognizeOnceAsync(
+          function (result) {
+            startRecognizeOnceAsyncButton.disabled = false;
+            phraseDiv.innerHTML += result.text;
+            window.console.log(result);
+
+            recognizer.close();
+            recognizer = undefined;
+          },
+          function (err) {
+            startRecognizeOnceAsyncButton.disabled = false;
+            phraseDiv.innerHTML += err;
+            window.console.log(err);
+
+            recognizer.close();
+            recognizer = undefined;
+          });
+      });
+
+      if (!!window.SpeechSDK) {
+        SpeechSDK = window.SpeechSDK;
+        startRecognizeOnceAsyncButton.disabled = false;
+
+        document.getElementById('content').style.display = 'block';
+        document.getElementById('warning').style.display = 'none';
+      }
+    });
+  </script>
+
+</html>
