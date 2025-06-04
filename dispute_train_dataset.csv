@@ -1,0 +1,101 @@
+customer_query,intent,dispute_category
+"Still waiting for a refund after returning my item to Maxwell, Conway and Wood",dispute,Refund Not Processed
+I cancelled my subscription to Hayes-Clark but still got charged,dispute,Billing Issue
+"I don’t recognize this charge from Cook, Nguyen and Butler",dispute,Fraud
+"I returned the product to Price, Martinez and Sanchez but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+"The item I got from Shaw, Todd and Bell is not what was advertised",dispute,Product/Service Not as Described
+"ATM at Manning, David and Gomez didn't dispense cash but deducted from my account",dispute,ATM/Withdrawal Error
+"The billing from Maxwell, Conway and Wood doesn't match what I expected",dispute,Billing Issue
+What I received from Hays LLC is different from what I ordered,dispute,Product/Service Not as Described
+I withdrew $100 at Saunders Inc ATM but only got $60,dispute,ATM/Withdrawal Error
+"I withdrew $100 at Shaw, Todd and Bell ATM but only got $60",dispute,ATM/Withdrawal Error
+"What I received from Franklin, Stevenson and Lam is different from what I ordered",dispute,Product/Service Not as Described
+"I cancelled my subscription to Tucker, Crawford and Carr but still got charged",dispute,Billing Issue
+I cancelled my order with Johnson-Jimenez but was still charged,dispute,Cancelled Transaction Still Charged
+I returned the product to Howell-Miller but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+"I cancelled my order with Fox, Hill and Marquez but was still charged",dispute,Cancelled Transaction Still Charged
+I was overcharged by Mitchell LLC,dispute,Billing Issue
+"I forgot to cancel Manning, David and Gomez and got charged again",dispute,Subscription/Auto-Renewal Issue
+"I don’t recognize this charge from Manning, David and Gomez",dispute,Fraud
+"I returned the product to Tucker, Crawford and Carr but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+Still waiting for a refund after returning my item to Brown-Glass,dispute,Refund Not Processed
+I was promised a refund from White-Jones but haven’t received it,dispute,Refund Not Processed
+This transaction from Montoya-Blevins is fraudulent,dispute,Fraud
+I don’t recognize this charge from Brown-Glass,dispute,Fraud
+ATM at Savage Group didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+"I was promised a refund from Brown, Savage and Chaney but haven’t received it",dispute,Refund Not Processed
+"My Avila, Singleton and Keller subscription renewed without my consent",dispute,Subscription/Auto-Renewal Issue
+I forgot to cancel Winters-West and got charged again,dispute,Subscription/Auto-Renewal Issue
+I returned the product to Herring-Green but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+ATM at Bradley and Sons didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+I paid for something from Lloyd Group and it never arrived,dispute,Product/Service Not Received
+The item I got from Taylor and Sons is not what was advertised,dispute,Product/Service Not as Described
+My Winters-West subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+I cancelled my order with Allen and Sons but was still charged,dispute,Cancelled Transaction Still Charged
+"I didn’t receive the item I ordered from Maxwell, Conway and Wood",dispute,Product/Service Not Received
+Duplicate charge on my card from Zhang-Hernandez,dispute,Duplicate Transaction
+"I returned the product to Jackson, Dunn and Gill but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+I was overcharged by Craig and Sons,dispute,Billing Issue
+I returned the product to Savage Group but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+"I was charged twice by Avila, Singleton and Keller for the same thing",dispute,Duplicate Transaction
+"I returned the product to Ryan, Lewis and Jones but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+I cancelled my order with Hays LLC but was still charged,dispute,Cancelled Transaction Still Charged
+I paid for something from Nolan LLC and it never arrived,dispute,Product/Service Not Received
+ATM at Hays LLC didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+"I was overcharged by Avila, Singleton and Keller",dispute,Billing Issue
+The item I got from Brown-Glass is not what was advertised,dispute,Product/Service Not as Described
+I was promised a refund from Nolan LLC but haven’t received it,dispute,Refund Not Processed
+The billing from Thompson Group doesn't match what I expected,dispute,Billing Issue
+The billing from Lloyd Group doesn't match what I expected,dispute,Billing Issue
+I paid for something from Herring-Green and it never arrived,dispute,Product/Service Not Received
+I forgot to cancel Lloyd Group and got charged again,dispute,Subscription/Auto-Renewal Issue
+I paid for something from Zhang-Hernandez and it never arrived,dispute,Product/Service Not Received
+I didn’t receive the item I ordered from Padilla Inc,dispute,Product/Service Not Received
+I returned the product to Russell LLC but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+Still waiting for a refund after returning my item to Blevins-Mahoney,dispute,Refund Not Processed
+I cancelled my subscription to Alvarado Inc but still got charged,dispute,Billing Issue
+I cancelled my order with Banks PLC but was still charged,dispute,Cancelled Transaction Still Charged
+I forgot to cancel Banks PLC and got charged again,dispute,Subscription/Auto-Renewal Issue
+This transaction from Payne Inc is fraudulent,dispute,Fraud
+I was promised a refund from Alvarado Inc but haven’t received it,dispute,Refund Not Processed
+I was promised a refund from Mitchell LLC but haven’t received it,dispute,Refund Not Processed
+My Zhang-Hernandez subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+What I received from Howell-Miller is different from what I ordered,dispute,Product/Service Not as Described
+I withdrew $100 at Howell-Miller ATM but only got $60,dispute,ATM/Withdrawal Error
+I was charged twice by Johnson-Jimenez for the same thing,dispute,Duplicate Transaction
+I returned the product to White-Jones but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+"My Price, Martinez and Sanchez subscription renewed without my consent",dispute,Subscription/Auto-Renewal Issue
+I cancelled my order with White-Krueger but was still charged,dispute,Cancelled Transaction Still Charged
+I don’t recognize this charge from Massey-Miller,dispute,Fraud
+I returned the product to Bradley and Sons but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+"I cancelled my subscription to Maxwell, Conway and Wood but still got charged",dispute,Billing Issue
+"ATM at Martin, Bennett and Higgins didn't dispense cash but deducted from my account",dispute,ATM/Withdrawal Error
+I don’t recognize this charge from Nolan LLC,dispute,Fraud
+I withdrew $100 at Flynn Inc ATM but only got $60,dispute,ATM/Withdrawal Error
+Still waiting for a refund after returning my item to Hayes-Clark,dispute,Refund Not Processed
+"I didn’t receive the item I ordered from Price, Martinez and Sanchez",dispute,Product/Service Not Received
+"The billing from Ryan, Lewis and Jones doesn't match what I expected",dispute,Billing Issue
+"I paid for something from Avila, Singleton and Keller and it never arrived",dispute,Product/Service Not Received
+I was overcharged by Zhang-Hernandez,dispute,Billing Issue
+Still waiting for a refund after returning my item to Blevins-Mahoney,dispute,Refund Not Processed
+This transaction from Hays LLC is fraudulent,dispute,Fraud
+I returned the product to Johnson Group but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+I was promised a refund from Martinez Group but haven’t received it,dispute,Refund Not Processed
+ATM at Brown-Glass didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+I withdrew $100 at Massey-Miller ATM but only got $60,dispute,ATM/Withdrawal Error
+What I received from Blevins-Mahoney is different from what I ordered,dispute,Product/Service Not as Described
+Still waiting for a refund after returning my item to Craig and Sons,dispute,Refund Not Processed
+I was overcharged by Payne Inc,dispute,Billing Issue
+"I returned the product to Brown, Savage and Chaney but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+ATM at Brown-Glass didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+"I don’t recognize this charge from Tucker, Crawford and Carr",dispute,Fraud
+"I forgot to cancel Manning, David and Gomez and got charged again",dispute,Subscription/Auto-Renewal Issue
+I returned the product to Blevins-Mahoney but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+My Payne Inc subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+"I was promised a refund from Austin, Shepherd and Cunningham but haven’t received it",dispute,Refund Not Processed
+I was overcharged by Johnson-Jimenez,dispute,Billing Issue
+I cancelled my order with Lloyd Group but was still charged,dispute,Cancelled Transaction Still Charged
+"Still waiting for a refund after returning my item to Austin, Shepherd and Cunningham",dispute,Refund Not Processed
+I don’t recognize this charge from Herring-Green,dispute,Fraud
+I was overcharged by Johnson-Jimenez,dispute,Billing Issue
+"I cancelled my order with Rangel, Phillips and Brown but was still charged",dispute,Cancelled Transaction Still Charged

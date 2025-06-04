@@ -1,0 +1,101 @@
+customer_query,intent,dispute_category
+Can I increase my credit limit?,standard,
+"My Franklin, Stevenson and Lam subscription renewed without my consent",dispute,Subscription/Auto-Renewal Issue
+"Still waiting for a refund after returning my item to Price, Martinez and Sanchez",dispute,Refund Not Processed
+Is there a branch near me that’s open today?,standard,
+My Bradley and Sons subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+Please help me activate my new debit card,standard,
+I cancelled my subscription to Montoya-Blevins but still got charged,dispute,Billing Issue
+"I don’t recognize this charge from Fox, Hill and Marquez",dispute,Fraud
+I was charged twice by White-Krueger for the same thing,dispute,Duplicate Transaction
+What is the interest rate on my savings account?,standard,
+"I forgot to cancel Tucker, Crawford and Carr and got charged again",dispute,Subscription/Auto-Renewal Issue
+Can you tell me the balance of my account?,standard,
+"This transaction from Cook, Nguyen and Butler is fraudulent",dispute,Fraud
+I was promised a refund from White-Krueger but haven’t received it,dispute,Refund Not Processed
+How can I apply for a credit card?,standard,
+"I forgot to cancel Ryan, Lewis and Jones and got charged again",dispute,Subscription/Auto-Renewal Issue
+Where can I find my recent transactions?,standard,
+I forgot to cancel Taylor and Sons and got charged again,dispute,Subscription/Auto-Renewal Issue
+I want to update my phone number on file,standard,
+I withdrew $100 at Flynn Inc ATM but only got $60,dispute,ATM/Withdrawal Error
+Can you tell me the balance of my account?,standard,
+The billing from Bradley and Sons doesn't match what I expected,dispute,Billing Issue
+Duplicate charge on my card from Thompson Group,dispute,Duplicate Transaction
+Please help me activate my new debit card,standard,
+"I was charged twice by Gonzalez, Wilcox and Miller for the same thing",dispute,Duplicate Transaction
+Still waiting for a refund after returning my item to Alvarado Inc,dispute,Refund Not Processed
+Someone used my card at Hays LLC without my permission,dispute,Fraud
+Please help me activate my new debit card,standard,
+Can you tell me the balance of my account?,standard,
+Duplicate charge on my card from Flynn Inc,dispute,Duplicate Transaction
+What is the interest rate on my savings account?,standard,
+I paid for something from Taylor and Sons and it never arrived,dispute,Product/Service Not Received
+I was charged twice by Allen and Sons for the same thing,dispute,Duplicate Transaction
+Is there a branch near me that’s open today?,standard,
+"I was overcharged by Price, Martinez and Sanchez",dispute,Billing Issue
+I don’t recognize this charge from Johnson-Jimenez,dispute,Fraud
+I was overcharged by Mitchell LLC,dispute,Billing Issue
+How can I apply for a credit card?,standard,
+How do I reset my online banking password?,standard,
+What are the charges for international transfers?,standard,
+Can I increase my credit limit?,standard,
+I don’t recognize this charge from Savage Group,dispute,Fraud
+What is the interest rate on my savings account?,standard,
+I don’t recognize this charge from Alvarado Inc,dispute,Fraud
+What is the interest rate on my savings account?,standard,
+Someone used my card at Brown-Glass without my permission,dispute,Fraud
+"Duplicate charge on my card from Price, Martinez and Sanchez",dispute,Duplicate Transaction
+What is the interest rate on my savings account?,standard,
+My Alvarado Inc subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+"Still waiting for a refund after returning my item to Shaw, Todd and Bell",dispute,Refund Not Processed
+"I cancelled my order with Austin, Shepherd and Cunningham but was still charged",dispute,Cancelled Transaction Still Charged
+I returned the product to Spencer Group but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+How do I reset my online banking password?,standard,
+Someone used my card at Banks PLC without my permission,dispute,Fraud
+I was charged twice by Johnson-Jimenez for the same thing,dispute,Duplicate Transaction
+I was overcharged by Hayes-Clark,dispute,Billing Issue
+Can you tell me the balance of my account?,standard,
+"What I received from Jackson, Dunn and Gill is different from what I ordered",dispute,Product/Service Not as Described
+How can I apply for a credit card?,standard,
+What I received from Herring-Green is different from what I ordered,dispute,Product/Service Not as Described
+Is there a branch near me that’s open today?,standard,
+Where can I find my recent transactions?,standard,
+ATM at Spencer Group didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+"I withdrew $100 at Price, Martinez and Sanchez ATM but only got $60",dispute,ATM/Withdrawal Error
+"Still waiting for a refund after returning my item to Cook, Nguyen and Butler",dispute,Refund Not Processed
+Can I increase my credit limit?,standard,
+"I didn’t receive the item I ordered from Manning, David and Gomez",dispute,Product/Service Not Received
+Someone used my card at Mitchell LLC without my permission,dispute,Fraud
+I was promised a refund from Nolan LLC but haven’t received it,dispute,Refund Not Processed
+How can I apply for a credit card?,standard,
+I withdrew $100 at Massey-Miller ATM but only got $60,dispute,ATM/Withdrawal Error
+ATM at Payne Inc didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+I want to update my phone number on file,standard,
+Where can I find my recent transactions?,standard,
+I want to update my phone number on file,standard,
+ATM at Mitchell LLC didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+I didn’t receive the item I ordered from Montoya-Blevins,dispute,Product/Service Not Received
+I want to update my phone number on file,standard,
+"I paid for something from Price, Martinez and Sanchez and it never arrived",dispute,Product/Service Not Received
+How can I apply for a credit card?,standard,
+How can I apply for a credit card?,standard,
+How do I reset my online banking password?,standard,
+Can you tell me the balance of my account?,standard,
+Where can I find my recent transactions?,standard,
+ATM at Savage Group didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+Can you tell me the balance of my account?,standard,
+Please help me activate my new debit card,standard,
+"I was promised a refund from Jackson, Dunn and Gill but haven’t received it",dispute,Refund Not Processed
+Can I increase my credit limit?,standard,
+Please help me activate my new debit card,standard,
+I returned the product to Mitchell LLC but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+"The billing from Rangel, Phillips and Brown doesn't match what I expected",dispute,Billing Issue
+"I cancelled my order with Jackson, Dunn and Gill but was still charged",dispute,Cancelled Transaction Still Charged
+How can I apply for a credit card?,standard,
+What are the charges for international transfers?,standard,
+Duplicate charge on my card from Johnson-Jimenez,dispute,Duplicate Transaction
+"This transaction from Rangel, Phillips and Brown is fraudulent",dispute,Fraud
+The billing from Martinez Group doesn't match what I expected,dispute,Billing Issue
+I withdrew $100 at Blevins-Mahoney ATM but only got $60,dispute,ATM/Withdrawal Error
+"ATM at Jackson, Dunn and Gill didn't dispense cash but deducted from my account",dispute,ATM/Withdrawal Error
