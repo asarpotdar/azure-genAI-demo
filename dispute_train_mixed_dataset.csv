@@ -1,0 +1,101 @@
+customer_query,intent,dispute_category
+Can you tell me the balance of my account?,standard,
+The billing from Craig and Sons doesn't match what I expected,dispute,Billing Issue
+Where can I find my recent transactions?,standard,
+I want to update my phone number on file,standard,
+Still waiting for a refund after returning my item to Blevins-Mahoney,dispute,Refund Not Processed
+"I was overcharged by Franklin, Stevenson and Lam",dispute,Billing Issue
+"I withdrew $100 at Austin, Shepherd and Cunningham ATM but only got $60",dispute,ATM/Withdrawal Error
+ATM at Alvarado Inc didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+Can I increase my credit limit?,standard,
+How do I reset my online banking password?,standard,
+"Still waiting for a refund after returning my item to Brown, Savage and Chaney",dispute,Refund Not Processed
+Can you tell me the balance of my account?,standard,
+The billing from Saunders Inc doesn't match what I expected,dispute,Billing Issue
+I returned the product to Bradley and Sons but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+Duplicate charge on my card from Nolan LLC,dispute,Duplicate Transaction
+I paid for something from Johnson Group and it never arrived,dispute,Product/Service Not Received
+Still waiting for a refund after returning my item to Taylor and Sons,dispute,Refund Not Processed
+I cancelled my subscription to Thompson Group but still got charged,dispute,Billing Issue
+My Blevins-Mahoney subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+I cancelled my subscription to Massey-Miller but still got charged,dispute,Billing Issue
+I was charged twice by Hays LLC for the same thing,dispute,Duplicate Transaction
+The item I got from Nolan LLC is not what was advertised,dispute,Product/Service Not as Described
+Can you tell me the balance of my account?,standard,
+"I returned the product to Manning, David and Gomez but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+"The item I got from Gonzalez, Wilcox and Miller is not what was advertised",dispute,Product/Service Not as Described
+"Duplicate charge on my card from Anderson, Smith and Hall",dispute,Duplicate Transaction
+I paid for something from Saunders Inc and it never arrived,dispute,Product/Service Not Received
+I don’t recognize this charge from White-Krueger,dispute,Fraud
+"I returned the product to Jackson, Dunn and Gill but wasn’t refunded",dispute,Cancelled Transaction Still Charged
+Can I increase my credit limit?,standard,
+I want to update my phone number on file,standard,
+"What I received from Jackson, Dunn and Gill is different from what I ordered",dispute,Product/Service Not as Described
+What are the charges for international transfers?,standard,
+"Duplicate charge on my card from Fox, Hill and Marquez",dispute,Duplicate Transaction
+Still waiting for a refund after returning my item to Zhang-Hernandez,dispute,Refund Not Processed
+I was charged twice by Saunders Inc for the same thing,dispute,Duplicate Transaction
+"Duplicate charge on my card from Price, Martinez and Sanchez",dispute,Duplicate Transaction
+I want to update my phone number on file,standard,
+How can I apply for a credit card?,standard,
+What are the charges for international transfers?,standard,
+What is the interest rate on my savings account?,standard,
+What is the interest rate on my savings account?,standard,
+I withdrew $100 at Howell-Miller ATM but only got $60,dispute,ATM/Withdrawal Error
+"I was overcharged by Avila, Singleton and Keller",dispute,Billing Issue
+What are the charges for international transfers?,standard,
+"I was promised a refund from Jackson, Dunn and Gill but haven’t received it",dispute,Refund Not Processed
+I was promised a refund from Savage Group but haven’t received it,dispute,Refund Not Processed
+"I cancelled my subscription to Manning, David and Gomez but still got charged",dispute,Billing Issue
+"I cancelled my order with Gonzalez, Wilcox and Miller but was still charged",dispute,Cancelled Transaction Still Charged
+Can you tell me the balance of my account?,standard,
+I forgot to cancel Brown-Glass and got charged again,dispute,Subscription/Auto-Renewal Issue
+Where can I find my recent transactions?,standard,
+"The billing from Fox, Hill and Marquez doesn't match what I expected",dispute,Billing Issue
+"I was promised a refund from Gonzalez, Wilcox and Miller but haven’t received it",dispute,Refund Not Processed
+Still waiting for a refund after returning my item to Banks PLC,dispute,Refund Not Processed
+I forgot to cancel Spencer Group and got charged again,dispute,Subscription/Auto-Renewal Issue
+What are the charges for international transfers?,standard,
+My Brown-Glass subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+ATM at Hays LLC didn't dispense cash but deducted from my account,dispute,ATM/Withdrawal Error
+Still waiting for a refund after returning my item to Mitchell LLC,dispute,Refund Not Processed
+Someone used my card at Hays LLC without my permission,dispute,Fraud
+I returned the product to Brown-Glass but wasn’t refunded,dispute,Cancelled Transaction Still Charged
+Can you tell me the balance of my account?,standard,
+Is there a branch near me that’s open today?,standard,
+"I forgot to cancel Cook, Nguyen and Butler and got charged again",dispute,Subscription/Auto-Renewal Issue
+I don’t recognize this charge from Craig and Sons,dispute,Fraud
+My Mitchell LLC subscription renewed without my consent,dispute,Subscription/Auto-Renewal Issue
+Can I increase my credit limit?,standard,
+I don’t recognize this charge from Alvarado Inc,dispute,Fraud
+The billing from Russell LLC doesn't match what I expected,dispute,Billing Issue
+I want to update my phone number on file,standard,
+I was charged twice by Savage Group for the same thing,dispute,Duplicate Transaction
+How can I apply for a credit card?,standard,
+I was promised a refund from Russell LLC but haven’t received it,dispute,Refund Not Processed
+"Someone used my card at Jackson, Dunn and Gill without my permission",dispute,Fraud
+How do I reset my online banking password?,standard,
+I paid for something from Massey-Miller and it never arrived,dispute,Product/Service Not Received
+How do I reset my online banking password?,standard,
+Please help me activate my new debit card,standard,
+Is there a branch near me that’s open today?,standard,
+What is the interest rate on my savings account?,standard,
+I was charged twice by Blevins-Mahoney for the same thing,dispute,Duplicate Transaction
+How do I reset my online banking password?,standard,
+I withdrew $100 at Allen and Sons ATM but only got $60,dispute,ATM/Withdrawal Error
+"The billing from Austin, Shepherd and Cunningham doesn't match what I expected",dispute,Billing Issue
+Is there a branch near me that’s open today?,standard,
+Still waiting for a refund after returning my item to Alvarado Inc,dispute,Refund Not Processed
+"What I received from Cook, Nguyen and Butler is different from what I ordered",dispute,Product/Service Not as Described
+"I cancelled my subscription to Fox, Hill and Marquez but still got charged",dispute,Billing Issue
+Where can I find my recent transactions?,standard,
+Can I increase my credit limit?,standard,
+Where can I find my recent transactions?,standard,
+What is the interest rate on my savings account?,standard,
+I don’t recognize this charge from Banks PLC,dispute,Fraud
+I forgot to cancel Howell-Miller and got charged again,dispute,Subscription/Auto-Renewal Issue
+Where can I find my recent transactions?,standard,
+Can I increase my credit limit?,standard,
+I want to update my phone number on file,standard,
+Still waiting for a refund after returning my item to Hayes-Clark,dispute,Refund Not Processed
+Where can I find my recent transactions?,standard,
